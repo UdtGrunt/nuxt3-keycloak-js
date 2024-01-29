@@ -2,7 +2,7 @@
 Implémentation de keycloak-js dans une application Nuxt 3 avec Pinia.
 
 # Prérequis
-Un environnement avec Keycloak de déployer avec un realm et un client.
+Un environnement avec Keycloak de déployé avec un realm et un client.
 Voir la documentation suivante pour la configuration de Keycloak : `https://www.keycloak.org/docs/latest/securing_apps/index.html#_javascript_adapter`
 Pinia configuré.
 Voir la documentation suivante pour la configuration de Pinia :
@@ -45,7 +45,7 @@ export default defineNuxtConfig({
 ```
 
 # Etape 3 : Création du store
-Créer une interface `JwtDecoded.ts` dans le dossier `interfaces de l'application`.
+Créer une interface `JwtDecoded.ts` dans le dossier `interfaces` de l'application.
 ```ts
 interface JwtDecoded {
   email: string
